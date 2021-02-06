@@ -24,9 +24,8 @@
         echo "your guess is too high";
     }elseif ($guess < $correct) {
         echo "your guess is too low";
-    }elseif ($guess == $correct) {
-        echo "congratulations! your guess " . $guess . " is correct!";
     }else {
+        echo "congratulations! your guess " . $guess . " is correct!";
     }
 
     ?>
